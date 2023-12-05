@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/shriharisbhat/auto-releasing/compare/v1.0.0...v1.1.0) (2023-12-05)
+
+
+### Features
+
+* changed to minor ([#10](https://github.com/shriharisbhat/auto-releasing/issues/10)) ([2cdec35](https://github.com/shriharisbhat/auto-releasing/commit/2cdec35d3702a350f6934bab19f123184da8ddab))
+
 ## 1.0.0 (2023-12-05)
 
 
