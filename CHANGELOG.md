@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/shriharisbhat/auto-releasing/compare/v2.0.0...v3.0.0) (2023-12-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* breaking changes ([#16](https://github.com/shriharisbhat/auto-releasing/issues/16))
+
+### Features
+
+* breaking changes ([#16](https://github.com/shriharisbhat/auto-releasing/issues/16)) ([3d65ca0](https://github.com/shriharisbhat/auto-releasing/commit/3d65ca05108990ffe998e3d971a9d25b7ac12626))
+
 ## [2.0.0](https://github.com/shriharisbhat/auto-releasing/compare/v1.0.0...v2.0.0) (2023-12-05)
 
 
