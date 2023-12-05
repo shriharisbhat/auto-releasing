@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.0.0](https://github.com/shriharisbhat/auto-releasing/compare/v1.0.0...v2.0.0) (2023-12-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* **api:** send an email to the customer when a product is shipped ([#12](https://github.com/shriharisbhat/auto-releasing/issues/12))
+
+### Features
+
+* **api:** send an email to the customer when a product is shipped ([#12](https://github.com/shriharisbhat/auto-releasing/issues/12)) ([d1b6a7e](https://github.com/shriharisbhat/auto-releasing/commit/d1b6a7e00e1b59037355c026e5aa00b8bc814dc2))
+* changed to minor ([#10](https://github.com/shriharisbhat/auto-releasing/issues/10)) ([2cdec35](https://github.com/shriharisbhat/auto-releasing/commit/2cdec35d3702a350f6934bab19f123184da8ddab))
+
+
+### Bug Fixes
+
+* check fix ([#14](https://github.com/shriharisbhat/auto-releasing/issues/14)) ([edb8ef2](https://github.com/shriharisbhat/auto-releasing/commit/edb8ef208fed0f9501a732ef9698584cea65fdbc))
+
 ## 1.0.0 (2023-12-05)
 
 
