@@ -2,8 +2,6 @@
   "packages": {
     // defaults to the "node" type which also implements package-name lookup
     // so no need to specify that here.
-    ".": {
-      "release-type": "node"
-    }
+    ".": {}
   }
 }
