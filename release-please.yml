@@ -1,4 +1,0 @@
-# release-please configuration file
-# https://github.com/googleapis/release-please
-
-release-as: minor
