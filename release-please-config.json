@@ -1,5 +1,5 @@
 {
-  "bootsrap-sha": "7977ee6eab2acbd2ad685832e75b1919edc0150a",
+  "last-release-sha": "7977ee6eab2acbd2ad685832e75b1919edc0150a",
   "packages": {
     ".": {
       "release-type": "node",
