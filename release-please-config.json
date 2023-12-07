@@ -1,8 +1,3 @@
 {
-  "packages": {
-    ".": {
-      "release-type": "node",
-      "bump-minor-pre-major": false
-    }
-  }
+  "release-type": "node"
 }
