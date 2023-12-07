@@ -1,7 +1,10 @@
 {
   "packages": {
     ".": {
-      "releaseType": "node"
+      "release-type": "node",
+      "changelog-sections": [
+        { "type": "chore", "section": "Miscellaneous Chores", "hidden": false }
+      ]
     }
   }
 }
