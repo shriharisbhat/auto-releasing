@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.2](https://github.com/shriharisbhat/auto-releasing/compare/v3.0.1...v3.0.2) (2023-12-08)
+
+
+### Miscellaneous Chores
+
+* include V in tag ([9ca7d44](https://github.com/shriharisbhat/auto-releasing/commit/9ca7d44fc4be6dd01b8c7b0a02048864b65ccdf7))
+
 ## [3.0.1](https://github.com/shriharisbhat/auto-releasing/compare/v3.0.0...v3.0.1) (2023-12-08)
 
 
