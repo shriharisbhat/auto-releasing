@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Check PR updates</p>
+        <p>Check version update for chore changes</p>
         <a
           className="App-link"
           href="https://reactjs.org"
