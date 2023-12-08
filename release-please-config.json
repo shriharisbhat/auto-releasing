@@ -9,7 +9,8 @@
         { "type": "fix", "section": "Bug Fixes", "hidden": false },
         { "type": "chore", "section": "Miscellaneous Chores", "hidden": false }
       ],
-      "skip-github-release": false
+      "skip-github-release": false,
+      "include-component-in-tag": false
     }
   }
 }
