@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.3](https://github.com/shriharisbhat/auto-releasing/compare/v3.0.2...v3.0.3) (2023-12-08)
+
+
+### Miscellaneous Chores
+
+* check version update for chore changes ([8e2a357](https://github.com/shriharisbhat/auto-releasing/commit/8e2a357fe20d0115713449bd7856bd9f46ecba6f))
+
 ## [3.0.2](https://github.com/shriharisbhat/auto-releasing/compare/v3.0.1...v3.0.2) (2023-12-08)
 
 
