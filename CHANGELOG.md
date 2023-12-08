@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.0.2](https://github.com/shriharisbhat/auto-releasing/compare/v3.0.1...v3.0.2) (2023-12-08)
+
+
+### Bug Fixes
+
+* fix skip to ture ([4d0835c](https://github.com/shriharisbhat/auto-releasing/commit/4d0835ca70dc165a3b2e7bd9c879216ac16c4c6f))
+
+
+### Miscellaneous Chores
+
+* check PR updates ([29a9562](https://github.com/shriharisbhat/auto-releasing/commit/29a95622a863981bfb7e8ef9075a4020ed2b6a69))
+* default to false ([3164d06](https://github.com/shriharisbhat/auto-releasing/commit/3164d06091d7421a8f9ccd0cfae664ac8764ffbe))
+
 ## [3.0.1](https://github.com/shriharisbhat/auto-releasing/compare/v3.0.0...v3.0.1) (2023-12-08)
 
 
