@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.0.4](https://github.com/shriharisbhat/auto-releasing/compare/v3.0.3...v3.0.4) (2024-01-03)
+
+
+### Continuous Integration chores
+
+* create workflows for main, develop and stage separately ([#53](https://github.com/shriharisbhat/auto-releasing/issues/53)) ([88b8ccd](https://github.com/shriharisbhat/auto-releasing/commit/88b8ccd66edda9205861c0244cc1a83c86738bbe))
+* update the action names ([#55](https://github.com/shriharisbhat/auto-releasing/issues/55)) ([9c6f079](https://github.com/shriharisbhat/auto-releasing/commit/9c6f0790f3febf59ac2351389a05244875b4210c))
+* update the change-log types ([#56](https://github.com/shriharisbhat/auto-releasing/issues/56)) ([1e5260b](https://github.com/shriharisbhat/auto-releasing/commit/1e5260baba0a9bf88c7bd73ad08cc47c6cdcbe33))
+
 ## [3.0.3](https://github.com/shriharisbhat/auto-releasing/compare/v3.0.2...v3.0.3) (2023-12-08)
 
 
