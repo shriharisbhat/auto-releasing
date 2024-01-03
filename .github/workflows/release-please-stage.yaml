@@ -1,0 +1,21 @@
+name: Release Please
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "The branch you want to dispatch the workflow"
+        required: false
+        type: string
+        default: :"stage"
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Release Please Action
+        uses: google-github-actions/release-please-action@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          manifest-file: .release-please-manifest.json
+          config-file: release-please-config.json
