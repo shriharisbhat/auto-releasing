@@ -2,7 +2,7 @@
   "last-release-sha": "94466438443c6b3ff9eda9772dbfe39060910101",
   "packages": {
     ".": {
-      "release-type": "terraform-module",
+      "release-type": "node",
       "changelog-sections": [
         { "type": "feat", "section": "Features", "hidden": false },
         { "type": "feature", "section": "Features", "hidden": false },
