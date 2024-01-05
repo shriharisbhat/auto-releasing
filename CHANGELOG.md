@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.0.5](https://github.com/shriharisbhat/auto-releasing/compare/v3.0.4...v3.0.5) (2024-01-05)
+
+
+### Miscellaneous Chores
+
+* update branch ([#64](https://github.com/shriharisbhat/auto-releasing/issues/64)) ([76305af](https://github.com/shriharisbhat/auto-releasing/commit/76305afc87e086e12e76ca7d888d299388617d57))
+* update last release ([#61](https://github.com/shriharisbhat/auto-releasing/issues/61)) ([d4c9bd1](https://github.com/shriharisbhat/auto-releasing/commit/d4c9bd13877df70b72ef8d85ce19dfb7e66d8ece))
+* update release type ([#66](https://github.com/shriharisbhat/auto-releasing/issues/66)) ([bdc15a4](https://github.com/shriharisbhat/auto-releasing/commit/bdc15a47d46abbf7d2b8d4b588ecb793f3aa0443))
+
 ## [3.0.4](https://github.com/shriharisbhat/auto-releasing/compare/v3.0.3...v3.0.4) (2024-01-03)
 
 
