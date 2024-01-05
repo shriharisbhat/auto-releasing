@@ -1,0 +1,17 @@
+{
+  "last-release-sha": "94466438443c6b3ff9eda9772dbfe39060910101",
+  "packages": {
+    ".": {
+      "release-type": "terraform-module",
+      "changelog-sections": [
+        { "type": "feat", "section": "Features", "hidden": false },
+        { "type": "feature", "section": "Features", "hidden": false },
+        { "type": "fix", "section": "Bug Fixes", "hidden": false },
+        { "type": "chore", "section": "Miscellaneous Chores", "hidden": false },
+        { "type": "ci", "section": "Continuous Integration chores", "hidden": false }
+      ],
+      "skip-github-release": false,
+      "include-component-in-tag": false
+    }
+  }
+}
