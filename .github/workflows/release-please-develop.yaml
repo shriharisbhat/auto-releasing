@@ -27,6 +27,8 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+        with:
+          ref: release-please--branches--develop--components--auto-releasing
 
       - name: Change the base to stage
         env:
