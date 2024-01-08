@@ -1,5 +1,25 @@
 # Changelog
 
+## [3.0.7](https://github.com/shriharisbhat/auto-releasing/compare/v3.0.6...v3.0.7) (2024-01-08)
+
+
+### Bug Fixes
+
+* fix workflow issue ([a236342](https://github.com/shriharisbhat/auto-releasing/commit/a2363420da81b4baae26b120ed9e9e0fd5cef669))
+
+
+### Miscellaneous Chores
+
+* add checkout for workflow ([00dc86b](https://github.com/shriharisbhat/auto-releasing/commit/00dc86b0170eb723227b7d45738fc079b0d1393b))
+* **develop:** release 3.0.5 ([5f69b2a](https://github.com/shriharisbhat/auto-releasing/commit/5f69b2a3d4a15b4b95aac8dd8711f7466ec86d5c))
+* modify action ([#71](https://github.com/shriharisbhat/auto-releasing/issues/71)) ([79cfd2d](https://github.com/shriharisbhat/auto-releasing/commit/79cfd2d01d0b99a52faf5b14a4d5210391b9a546))
+* **release-please--branches--develop--components--auto-releasing:** release 3.0.6 ([abd5d5d](https://github.com/shriharisbhat/auto-releasing/commit/abd5d5dccbc381f635d24f113f7caea7ce5a03f2))
+* update base ([#69](https://github.com/shriharisbhat/auto-releasing/issues/69)) ([3002628](https://github.com/shriharisbhat/auto-releasing/commit/30026288e29bcbe59d6233ac14fe0f6af29c95f8))
+* update branch ([#64](https://github.com/shriharisbhat/auto-releasing/issues/64)) ([76305af](https://github.com/shriharisbhat/auto-releasing/commit/76305afc87e086e12e76ca7d888d299388617d57))
+* update last release ([#61](https://github.com/shriharisbhat/auto-releasing/issues/61)) ([d4c9bd1](https://github.com/shriharisbhat/auto-releasing/commit/d4c9bd13877df70b72ef8d85ce19dfb7e66d8ece))
+* update release type ([#66](https://github.com/shriharisbhat/auto-releasing/issues/66)) ([bdc15a4](https://github.com/shriharisbhat/auto-releasing/commit/bdc15a47d46abbf7d2b8d4b588ecb793f3aa0443))
+* update stage release type to node ([#68](https://github.com/shriharisbhat/auto-releasing/issues/68)) ([e7c7b4d](https://github.com/shriharisbhat/auto-releasing/commit/e7c7b4de495367ad61b3db733889bb2833a2959c))
+
 ## [3.0.6](https://github.com/shriharisbhat/auto-releasing/compare/v3.0.5...v3.0.6) (2024-01-08)
 
 
