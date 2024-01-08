@@ -1,5 +1,22 @@
 # Changelog
 
+## [3.0.5](https://github.com/shriharisbhat/auto-releasing/compare/v3.0.4...v3.0.5) (2024-01-08)
+
+
+### Bug Fixes
+
+* fix workflow issue ([a236342](https://github.com/shriharisbhat/auto-releasing/commit/a2363420da81b4baae26b120ed9e9e0fd5cef669))
+
+
+### Miscellaneous Chores
+
+* modify action ([#71](https://github.com/shriharisbhat/auto-releasing/issues/71)) ([79cfd2d](https://github.com/shriharisbhat/auto-releasing/commit/79cfd2d01d0b99a52faf5b14a4d5210391b9a546))
+* update base ([#69](https://github.com/shriharisbhat/auto-releasing/issues/69)) ([3002628](https://github.com/shriharisbhat/auto-releasing/commit/30026288e29bcbe59d6233ac14fe0f6af29c95f8))
+* update branch ([#64](https://github.com/shriharisbhat/auto-releasing/issues/64)) ([76305af](https://github.com/shriharisbhat/auto-releasing/commit/76305afc87e086e12e76ca7d888d299388617d57))
+* update last release ([#61](https://github.com/shriharisbhat/auto-releasing/issues/61)) ([d4c9bd1](https://github.com/shriharisbhat/auto-releasing/commit/d4c9bd13877df70b72ef8d85ce19dfb7e66d8ece))
+* update release type ([#66](https://github.com/shriharisbhat/auto-releasing/issues/66)) ([bdc15a4](https://github.com/shriharisbhat/auto-releasing/commit/bdc15a47d46abbf7d2b8d4b588ecb793f3aa0443))
+* update stage release type to node ([#68](https://github.com/shriharisbhat/auto-releasing/issues/68)) ([e7c7b4d](https://github.com/shriharisbhat/auto-releasing/commit/e7c7b4de495367ad61b3db733889bb2833a2959c))
+
 ## [3.0.4](https://github.com/shriharisbhat/auto-releasing/compare/v3.0.3...v3.0.4) (2024-01-03)
 
 
