@@ -20,3 +20,8 @@ jobs:
           target-branch: ${{ github.ref_name }}
           manifest-file: .release-please-manifest.json
           config-file: release-please-config.json
+  change-base:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Change the base to stage
+        run: gh pr edit --base stage
