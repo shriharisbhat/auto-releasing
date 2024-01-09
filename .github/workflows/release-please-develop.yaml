@@ -13,6 +13,12 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repo
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+
+      - name: update file
+        run: jq '.packages.".".["bump-minor-pre-major"] = true' release-please-config.json > temp.json && mv temp.json release-please-config.json
+
       - name: Release Please Action
         uses: google-github-actions/release-please-action@v4
         with:
