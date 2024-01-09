@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.4.0](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v0.3.0...auto-releasing-v0.4.0) (2024-01-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* change the type
+
+### Features
+
+* change the type ([44369b6](https://github.com/shriharisbhat/auto-releasing/commit/44369b6448a4481bb8b7c86246c39c7e202dbc77))
+
 ## [0.3.0](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v0.2.0...auto-releasing-v0.3.0) (2024-01-09)
 
 
