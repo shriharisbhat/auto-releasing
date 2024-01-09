@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.0.0](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v1.0.0...auto-releasing-v2.0.0) (2024-01-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* introdice BC
+
+### Features
+
+* change the defaults ([cd214d7](https://github.com/shriharisbhat/auto-releasing/commit/cd214d705f2558882820309f451c5e0bee26d7f4))
+* introdice BC ([d595876](https://github.com/shriharisbhat/auto-releasing/commit/d5958764c6260e95c1e2c790b06219fc0c756c80))
+
+
+### Miscellaneous Chores
+
+* remove chore comment ([060b548](https://github.com/shriharisbhat/auto-releasing/commit/060b548fc0e2271d42896fd68638b0f998563522))
+
 ## 1.0.0 (2024-01-09)
 
 
