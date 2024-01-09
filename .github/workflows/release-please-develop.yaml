@@ -1,6 +1,8 @@
 name: Release Please for develop
 
 on:
+  push:
+    branches: [develop]
   workflow_dispatch:
     inputs:
       tag:
