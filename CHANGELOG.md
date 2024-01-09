@@ -1,5 +1,36 @@
 # Changelog
 
+## [2.0.0](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v1.0.0...auto-releasing-v2.0.0) (2024-01-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* bc 2
+* bc 4
+* change the type
+* bc 3
+
+### Features
+
+* bc 2 ([1e32d80](https://github.com/shriharisbhat/auto-releasing/commit/1e32d801301e89f51b69fb60e53bf81df20b99a4))
+* bc 3 ([c747cc6](https://github.com/shriharisbhat/auto-releasing/commit/c747cc6232db4e5905a4af753e6b2d8b09819081))
+* bc 4 ([f463b09](https://github.com/shriharisbhat/auto-releasing/commit/f463b09fd1da849f30931bc2c164b16edf6c2580))
+* change the type ([44369b6](https://github.com/shriharisbhat/auto-releasing/commit/44369b6448a4481bb8b7c86246c39c7e202dbc77))
+* change version ([2008d99](https://github.com/shriharisbhat/auto-releasing/commit/2008d99c213ec4cbf2842db3757a248510a91ccb))
+* test 2 ([3a00a21](https://github.com/shriharisbhat/auto-releasing/commit/3a00a2179229151529cdc2ba47eea313d527c3eb))
+* upgrade ([01406d2](https://github.com/shriharisbhat/auto-releasing/commit/01406d239ddfcba8b5b308141d6d61c09868bfc5))
+
+
+### Miscellaneous Chores
+
+* **develop:** release auto-releasing 0.2.0 ([#95](https://github.com/shriharisbhat/auto-releasing/issues/95)) ([dbd5508](https://github.com/shriharisbhat/auto-releasing/commit/dbd5508ff0a56787d31a78daa09844e64888c377))
+* **develop:** release auto-releasing 0.3.0 ([#97](https://github.com/shriharisbhat/auto-releasing/issues/97)) ([fde1be6](https://github.com/shriharisbhat/auto-releasing/commit/fde1be682ce75de2644d5982d263acc5112c0a62))
+* **develop:** release auto-releasing 0.4.0 ([#98](https://github.com/shriharisbhat/auto-releasing/issues/98)) ([235fd1d](https://github.com/shriharisbhat/auto-releasing/commit/235fd1da4bc42c43d414ff08980e6d63c9814073))
+* **develop:** release auto-releasing 1.0.0 ([#102](https://github.com/shriharisbhat/auto-releasing/issues/102)) ([3b767bc](https://github.com/shriharisbhat/auto-releasing/commit/3b767bc1bd4cac8e8770e767f1a3fa0d9e56b80f))
+* up to 2 ([d2b8099](https://github.com/shriharisbhat/auto-releasing/commit/d2b8099f377b780bc1095b81e9c3cb26e787c473))
+* update bump ([4591cef](https://github.com/shriharisbhat/auto-releasing/commit/4591ceff882c842453adf1db6404c9a35c8f8d40))
+* update to false ([e1c1ee5](https://github.com/shriharisbhat/auto-releasing/commit/e1c1ee580f4bba877aad33d301c99b864b3b2472))
+
 ## [1.0.0](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v0.4.0...auto-releasing-v1.0.0) (2024-01-09)
 
 
