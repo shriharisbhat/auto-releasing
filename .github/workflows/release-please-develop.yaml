@@ -31,6 +31,9 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
 
+      - name: update file
+        run: jq '.packages."."."release-as"="3.0.0"' release-please-config.json > temp.json
+
       - name: echo release-please-config.json
         run: cat temp.json
 
