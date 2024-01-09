@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v0.4.0...auto-releasing-v0.4.1) (2024-01-09)
+
+
+### Miscellaneous Chores
+
+* update to false ([e1c1ee5](https://github.com/shriharisbhat/auto-releasing/commit/e1c1ee580f4bba877aad33d301c99b864b3b2472))
+
 ## [0.4.0](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v0.3.0...auto-releasing-v0.4.0) (2024-01-09)
 
 
