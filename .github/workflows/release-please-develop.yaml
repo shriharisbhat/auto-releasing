@@ -19,6 +19,9 @@ jobs:
       - name: update file
         run: jq '.packages."."."bump-minor-pre-major"=true' release-please-config.json > temp.json && mv temp.json release-please-config.json
 
+      - name: echo release-please-config.json
+        run: cat release-please-config.json
+
       - name: Release Please Action
         uses: google-github-actions/release-please-action@v4
         with:
