@@ -1,6 +1,8 @@
 name: Release Please for develop
 
 on:
+  push:
+    branches: [develop]
   workflow_dispatch:
     inputs:
       tag:
@@ -13,6 +15,15 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repo
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+
+      - name: update file
+        run: jq '.packages."."."bump-minor-pre-major"=true' release-please-config.json > temp.json && mv temp.json release-please-config.json
+
+      - name: echo release-please-config.json
+        run: cat release-please-config.json
+
       - name: Release Please Action
         uses: google-github-actions/release-please-action@v4
         with:
@@ -20,3 +31,17 @@ jobs:
           target-branch: ${{ github.ref_name }}
           manifest-file: .release-please-manifest.json
           config-file: release-please-config.json
+
+  change-base:
+    runs-on: ubuntu-latest
+    needs: release-please
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+        with:
+          ref: release-please--branches--develop--components--auto-releasing
+
+      - name: Change the base to stage
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh pr edit --base stage
