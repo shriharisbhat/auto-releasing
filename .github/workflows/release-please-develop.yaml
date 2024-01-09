@@ -50,7 +50,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           target-branch: ${{ github.ref_name }}
           manifest-file: .release-please-manifest.json
-          config-file: temp_file.json
+          config-file: release-please-config-temp.json
 
   change-base:
     runs-on: ubuntu-latest
