@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.0](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v2.0.0...auto-releasing-v2.5.0) (2024-01-09)
+
+
+### Miscellaneous Chores
+
+* release as 2.5.0 ([babfbe0](https://github.com/shriharisbhat/auto-releasing/commit/babfbe06ebf5d0b07e622f15300ce2abac623e18))
+
 ## [2.0.0](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v1.0.0...auto-releasing-v2.0.0) (2024-01-09)
 
 
