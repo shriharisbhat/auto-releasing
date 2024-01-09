@@ -28,6 +28,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: release-update
     steps:
+      - name: Checkout Repo
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+
       - name: echo release-please-config.json
         run: cat release-please-config.json
 
