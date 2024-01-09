@@ -44,13 +44,13 @@ jobs:
       - name: echo release-please-config.json
         run: cat temp.json
 
-  #      - name: Release Please Action
-  #       uses: google-github-actions/release-please-action@v4
-  #       with:
-  #        token: ${{ secrets.GITHUB_TOKEN }}
-  #       target-branch: ${{ github.ref_name }}
-  #      manifest-file: .release-please-manifest.json
-  #     config-file: temp.json
+      - name: Release Please Action
+        uses: google-github-actions/release-please-action@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          target-branch: ${{ github.ref_name }}
+          manifest-file: .release-please-manifest.json
+          config-file: temp_file.json
 
   change-base:
     runs-on: ubuntu-latest
