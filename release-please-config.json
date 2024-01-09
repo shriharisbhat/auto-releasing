@@ -30,7 +30,7 @@
         }
       ],
       "skip-github-release": false,
-      "bump-minor-pre-major": true
+      "bump-minor-pre-major": false
     }
   }
 }
