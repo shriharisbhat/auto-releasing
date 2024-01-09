@@ -32,7 +32,7 @@ jobs:
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
 
       - name: echo release-please-config.json
-        run: cat release-please-config.json
+        run: cat temp.json
 
       - name: Release Please Action
         uses: google-github-actions/release-please-action@v4
