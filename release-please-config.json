@@ -31,7 +31,7 @@
         }
       ],
       "skip-github-release": false,
-      "bump-patch-for-minor-pre-major": false
+      "bump-minor-pre-major": true
     }
   }
 }
