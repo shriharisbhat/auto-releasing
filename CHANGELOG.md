@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v0.2.0...auto-releasing-v0.3.0) (2024-01-09)
+
+
+### Features
+
+* upgrade ([01406d2](https://github.com/shriharisbhat/auto-releasing/commit/01406d239ddfcba8b5b308141d6d61c09868bfc5))
+
 ## [0.2.0](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v0.1.0...auto-releasing-v0.2.0) (2024-01-09)
 
 
