@@ -12,7 +12,7 @@ on:
         default: :"develop"
 
 jobs:
-  release-please:
+  release-update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -21,6 +21,13 @@ jobs:
       - name: update file
         run: jq '.packages."."."release-as"="3.0.0"' release-please-config.json > temp.json && mv temp.json release-please-config.json
 
+      - name: echo release-please-config.json
+        run: cat release-please-config.json
+
+  release-please:
+    runs-on: ubuntu-latest
+    needs: release-update
+    steps:
       - name: echo release-please-config.json
         run: cat release-please-config.json
 
