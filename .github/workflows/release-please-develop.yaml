@@ -32,7 +32,7 @@ jobs:
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
 
       - name: update file
-        run: jq '.packages."."."release-as"="3.0.0"' release-please-config.json > temp.json
+        run: jq '.packages."."."release-as"="3.0.0"' release-please-config-temp.json > temp.json
 
       - name: Store config temp file
         uses: actions/upload-artifact@a8a3f3ad30e3422c9c7b888a15615d19a852ae32 #v3.1.3
