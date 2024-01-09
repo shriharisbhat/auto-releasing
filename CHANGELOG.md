@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.0.0](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v0.4.0...auto-releasing-v1.0.0) (2024-01-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* bc 4
+
+### Features
+
+* bc 4 ([f463b09](https://github.com/shriharisbhat/auto-releasing/commit/f463b09fd1da849f30931bc2c164b16edf6c2580))
+* test 2 ([3a00a21](https://github.com/shriharisbhat/auto-releasing/commit/3a00a2179229151529cdc2ba47eea313d527c3eb))
+
+
+### Miscellaneous Chores
+
+* update to false ([e1c1ee5](https://github.com/shriharisbhat/auto-releasing/commit/e1c1ee580f4bba877aad33d301c99b864b3b2472))
+
 ## [0.4.0](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v0.3.0...auto-releasing-v0.4.0) (2024-01-09)
 
 
