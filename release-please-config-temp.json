@@ -31,7 +31,7 @@
       ],
       "skip-github-release": false,
       "bump-minor-pre-major": true,
-      "release-as": "2.5.0"
+      "release-as": "2.7.0"
     }
   }
 }
