@@ -32,7 +32,6 @@ jobs:
           release-please release-pr \
             --token=${{ secrets.GITHUB_TOKEN }} \
             --repo-url=shriharisbhat/auto-releasing \
-            --config-file=release-please-config-tempr.json
 
       - name: ls
         run: ls -a
