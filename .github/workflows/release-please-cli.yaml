@@ -23,8 +23,8 @@ jobs:
       - name: Install release-please globally
         run: npm install release-please -g
 
-      - name: Checkout Repo
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+      # - name: Checkout Repo
+      #   uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
 
       - name: update file
         run: |
