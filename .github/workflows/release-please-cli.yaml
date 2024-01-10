@@ -28,7 +28,7 @@ jobs:
 
       - name: update file
         run: |
-          jq '.packages."."."release-as"="3.0.0"' release-please-config-temp.json > release-please-config-tempr.json \
+          jq '.packages."."."release-as"="3.0.0"' release-please-config-temp.json > release-please-config-tempr.json
           release-please release-pr \
             --token=${{ secrets.GITHUB_TOKEN }} \
             --repo-url=shriharisbhat/auto-releasing \
