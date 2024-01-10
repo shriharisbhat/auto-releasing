@@ -29,6 +29,9 @@ jobs:
       - name: update file
         run: jq '.packages."."."release-as"="3.0.0"' release-please-config-temp.json > release-please-config-tempr.json
 
+      - name: ls
+        run: ls -a
+
       - name: Create a release PR
         run: |
           release-please release-pr \
