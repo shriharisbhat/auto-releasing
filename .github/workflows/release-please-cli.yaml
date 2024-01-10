@@ -76,16 +76,16 @@ jobs:
   #     manifest-file: .release-please-manifest.json
   #     config-file: release-please-config-tempr.json
 
-  change-base:
-    runs-on: ubuntu-latest
-    needs: release-please
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
-        with:
-          ref: release-please--branches--develop--components--auto-releasing
+  # change-base:
+  #   runs-on: ubuntu-latest
+  #   needs: release-please
+  #   steps:
+  #     - name: Checkout Repo
+  #       uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+  #       with:
+  #         ref: release-please--branches--develop--components--auto-releasing
 
-      - name: Change the base to stage
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh pr edit --base stage
+  #     - name: Change the base to stage
+  #       env:
+  #         GH_TOKEN: ${{ github.token }}
+  #       run: gh pr edit --base stage
