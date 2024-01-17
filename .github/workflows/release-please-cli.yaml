@@ -35,5 +35,5 @@ jobs:
           release-please release-pr \
             --token=${{ secrets.GITHUB_TOKEN }} \
             --repo-url=shriharisbhat/auto-releasing \
+            --versioning-strategy=always-bump-minor \
             --config-file=release-please-config.json
-            --versioning-strategy="always-bump-minor"
