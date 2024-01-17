@@ -1,5 +1,35 @@
 # Changelog
 
+## [2.7.0](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v2.0.0...auto-releasing-v2.7.0) (2024-01-17)
+
+
+### Miscellaneous Chores
+
+* add checkout ([1587070](https://github.com/shriharisbhat/auto-releasing/commit/15870704e9fd4c652e258e77835e246e481ae1ba))
+* add version strategy ([7c1aa3a](https://github.com/shriharisbhat/auto-releasing/commit/7c1aa3acaca3d1dfbfaf60d497e319dbbb2b9a77))
+* change more ([db5820e](https://github.com/shriharisbhat/auto-releasing/commit/db5820e1db12444ef5da5a658ce3e5cc35eb567f))
+* change release-as ([5b6bd6c](https://github.com/shriharisbhat/auto-releasing/commit/5b6bd6c354b6ab37f5e5c165959f2adc8ed9f0f3))
+* change steps ([6a5c5c5](https://github.com/shriharisbhat/auto-releasing/commit/6a5c5c5d59a9f3688eb545f072a7bf8f6eed0bf2))
+* change steps for temp ([6bb3855](https://github.com/shriharisbhat/auto-releasing/commit/6bb38550ffad2ee2a8dbee8be440b55cf99a7147))
+* change the name ([06a03cd](https://github.com/shriharisbhat/auto-releasing/commit/06a03cd89d5ac71d578440363b2e8149401f58c7))
+* check the file ([26d219d](https://github.com/shriharisbhat/auto-releasing/commit/26d219da97a794e7331f3e5ab6f4f756b20f4cd9))
+* comment change-base ([ef001de](https://github.com/shriharisbhat/auto-releasing/commit/ef001de02279bf1878e047ccc1b9b3b676d4c7fb))
+* comment checkout ([44cbf60](https://github.com/shriharisbhat/auto-releasing/commit/44cbf605e9c6dd67a94efd7a1034e482cca6f9b6))
+* echo temp ([a1bea6c](https://github.com/shriharisbhat/auto-releasing/commit/a1bea6cb6c141576da93c45103c4a26899e4049c))
+* give the actual name ([d593b4f](https://github.com/shriharisbhat/auto-releasing/commit/d593b4f33d94490a95f26b96c5a68b97ff8deb45))
+* ls all ([682e206](https://github.com/shriharisbhat/auto-releasing/commit/682e2065d99a8618d281f2ed711da492c65975cf))
+* manual release ([303b3ab](https://github.com/shriharisbhat/auto-releasing/commit/303b3ab516701c31517b928a85ec834fd12ceb72))
+* release as 2.5.0 ([babfbe0](https://github.com/shriharisbhat/auto-releasing/commit/babfbe06ebf5d0b07e622f15300ce2abac623e18))
+* remove continuation ([9b9eb1d](https://github.com/shriharisbhat/auto-releasing/commit/9b9eb1d505f23acd924704d82d94dd35a400001c))
+* revert comment ([119fb59](https://github.com/shriharisbhat/auto-releasing/commit/119fb590527762f183fdc2eb6475006a5ab75fec))
+* store file in action ([a4d3761](https://github.com/shriharisbhat/auto-releasing/commit/a4d3761c2c82985e2f0bad7674cc7f4701cdb20e))
+* temp change ([adda4f7](https://github.com/shriharisbhat/auto-releasing/commit/adda4f76b103547a37eef8ab6ceb315882559f52))
+* test default config ([8a23a75](https://github.com/shriharisbhat/auto-releasing/commit/8a23a75c513eb3f72dd0121bd22db1869782f01b))
+* test fail ([1eb5b5d](https://github.com/shriharisbhat/auto-releasing/commit/1eb5b5def75aa7dd474db1eadd9c736a1e480bdf))
+* test path ([fbaa2bd](https://github.com/shriharisbhat/auto-releasing/commit/fbaa2bd56f870c54ec2b43a1c0299f22e937dd6f))
+* test temp_file ([0bb02f0](https://github.com/shriharisbhat/auto-releasing/commit/0bb02f08516fb8d6475d21ff290909d93d112055))
+* use temp.json for config ([27f29d3](https://github.com/shriharisbhat/auto-releasing/commit/27f29d35ad3a62809ed4fa5a2105001288c7c644))
+
 ## [2.0.0](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v1.0.0...auto-releasing-v2.0.0) (2024-01-09)
 
 
