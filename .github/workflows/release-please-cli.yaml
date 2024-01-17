@@ -36,5 +36,5 @@ jobs:
             --token=${{ secrets.GITHUB_TOKEN }} \
             --repo-url=shriharisbhat/auto-releasing \
             --release-type=node \
-            --changelog-sections=feat, feature, fix, chore \
+            --changelog-sections=[feat,feature,fix,chore] \
             --versioning-strategy=always-bump-minor \
