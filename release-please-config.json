@@ -30,7 +30,7 @@
           "hidden": false
         }
       ],
-      "versioning": "always-bump-major",
+      "versioning": "default",
       "release-as": ""
     }
   }
