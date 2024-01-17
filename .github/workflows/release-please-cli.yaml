@@ -17,7 +17,7 @@ name: CLI Release Please for develop
           "default"]
         required: false
         type: string
-        default: default
+        default: "default"
 jobs:
   install-release-please:
     runs-on: ubuntu-latest
