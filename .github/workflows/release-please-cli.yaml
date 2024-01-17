@@ -1,100 +1,39 @@
-name: Release Please for develop
-
-on:
+name: CLI Release Please for develop
+"on":
   push:
-    branches: [develop]
+    branches:
+      - develop
   workflow_dispatch:
     inputs:
-      tag:
-        description: "The branch you want to dispatch the workflow"
+      target-branch:
+        description: The branch you want to dispatch the workflow
         required: false
         type: string
-        default: :"develop"
-
+        default: develop
+      versioning-strategy:
+        description: >-
+          The versioning-strategy you want to follow, [choices:
+          "always-bump-major", "alway-bump-minor", "always-bump-patch",
+          "default"]
+        required: false
+        type: string
+        default: "default"
 jobs:
   install-release-please:
     runs-on: ubuntu-latest
     steps:
       - name: Set up NodeJS
-        uses: actions/setup-node@8f152de45cc393bb48ce5d89d36b731f54556e65 #v4.0.0
+        uses: actions/setup-node@8f152de45cc393bb48ce5d89d36b731f54556e65
         with:
           node-version: "18"
-
       - name: Install release-please globally
         run: npm install release-please -g
-
-      # - name: Checkout Repo
-      #   uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
-
-      # - name: update file
-      #   run: |
-      #     # jq '.packages."."."release-as"="3.0.0"' release-please-config-temp.json > release-please-config-tempr.json
-      #     release-please release-pr \
-      #       --token=${{ secrets.GITHUB_TOKEN }} \
-      #       --repo-url=shriharisbhat/auto-releasing \
-      #       --config-file=release-please-config-temp.json
-
       - name: ls
         run: ls -a
-
       - name: Create a release PR
         run: |
           release-please release-pr \
             --token=${{ secrets.GITHUB_TOKEN }} \
             --repo-url=shriharisbhat/auto-releasing \
-            --versioning-strategy=always-bump-minor \
+            --versioning-strategy=${{ github.event.inputs.versioning-strategy }} || default \
             --config-file=release-please-config-temp.json
-
-  # release-update:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Checkout Repo
-  #       uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
-
-  #     - name: update file
-  #       run: jq '.packages."."."release-as"="3.0.0"' release-please-config-temp.json > temp.json && mv temp.json release-please-config-temp.json
-
-  #     - name: echo release-please-config.json
-  #       run: cat release-please-config-temp.json
-
-  # release-please:
-  #   runs-on: ubuntu-latest
-  #   needs: release-update
-  #   steps:
-  #     - name: Checkout Repo
-  #       uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
-
-  #     - name: update file
-  #       run: jq '.packages."."."release-as"="3.0.0"' release-please-config-temp.json > release-please-config-tempr.json
-
-  #     - name: Store config temp file
-  #       uses: actions/upload-artifact@a8a3f3ad30e3422c9c7b888a15615d19a852ae32 #v3.1.3
-  #       with:
-  #         name: temp_file.json
-  #         path: .
-  #         retention-days: 1
-
-  #     - name: echo release-please-config.json
-  #       run: cat release-please-config-tempr.json
-
-  # - name: Release Please Action
-  #   uses: google-github-actions/release-please-action@v4
-  #   with:
-  #     token: ${{ secrets.GITHUB_TOKEN }}
-  #     target-branch: ${{ github.ref_name }}
-  #     manifest-file: .release-please-manifest.json
-  #     config-file: release-please-config-tempr.json
-
-  # change-base:
-  #   runs-on: ubuntu-latest
-  #   needs: release-please
-  #   steps:
-  #     - name: Checkout Repo
-  #       uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
-  #       with:
-  #         ref: release-please--branches--develop--components--auto-releasing
-
-  #     - name: Change the base to stage
-  #       env:
-  #         GH_TOKEN: ${{ github.token }}
-  #       run: gh pr edit --base stage
