@@ -39,7 +39,7 @@ jobs:
         run: |
           USER_INPUT=${{ github.event.inputs.versioning-strategy }}
           release-please release-pr \
-            --latest-tag-name=3.0.1 \
+            --latest-tag-name=v3.0.1 \
             --token=${{ secrets.GITHUB_TOKEN }} \
             --repo-url=shriharisbhat/auto-releasing \
             --release-type=node \
