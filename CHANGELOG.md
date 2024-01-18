@@ -1,5 +1,130 @@
 # Changelog
 
+## [4.0.0](https://github.com/shriharisbhat/auto-releasing/compare/v3.0.2...v4.0.0) (2024-01-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* bc 2
+* bc 4
+* change the type
+* bc 3
+* breaking changes
+* breaking change
+
+### Features
+
+* bc 2 ([1e32d80](https://github.com/shriharisbhat/auto-releasing/commit/1e32d801301e89f51b69fb60e53bf81df20b99a4))
+* bc 3 ([c747cc6](https://github.com/shriharisbhat/auto-releasing/commit/c747cc6232db4e5905a4af753e6b2d8b09819081))
+* bc 4 ([f463b09](https://github.com/shriharisbhat/auto-releasing/commit/f463b09fd1da849f30931bc2c164b16edf6c2580))
+* breaking change ([863cba5](https://github.com/shriharisbhat/auto-releasing/commit/863cba53f9a81840d628c2e0a72e91d0f0463001))
+* breaking changes ([34c3ada](https://github.com/shriharisbhat/auto-releasing/commit/34c3ada9b09f4b7b8fc8fc7404874690761d8cd1))
+* change the type ([44369b6](https://github.com/shriharisbhat/auto-releasing/commit/44369b6448a4481bb8b7c86246c39c7e202dbc77))
+* change version ([2008d99](https://github.com/shriharisbhat/auto-releasing/commit/2008d99c213ec4cbf2842db3757a248510a91ccb))
+* fail ([9d50100](https://github.com/shriharisbhat/auto-releasing/commit/9d501007cbfe9c85cc5166e6e53c17f28f1d1f87))
+* test ([40ba629](https://github.com/shriharisbhat/auto-releasing/commit/40ba62990072d58f3e6d933cf80622323d5e2f9c))
+* test ([b2ea613](https://github.com/shriharisbhat/auto-releasing/commit/b2ea61353346a439fe762513644d42110670ea4c))
+* test 2 ([3a00a21](https://github.com/shriharisbhat/auto-releasing/commit/3a00a2179229151529cdc2ba47eea313d527c3eb))
+* upgrade ([01406d2](https://github.com/shriharisbhat/auto-releasing/commit/01406d239ddfcba8b5b308141d6d61c09868bfc5))
+
+
+### Bug Fixes
+
+* change config to inline ([fa83180](https://github.com/shriharisbhat/auto-releasing/commit/fa83180e2f114cd0804f141b6617745c095c26e8))
+* change the type ([6018dc3](https://github.com/shriharisbhat/auto-releasing/commit/6018dc30090db6b619e7dffa30e80855dc64f990))
+* comment to check the change ([bdf67ce](https://github.com/shriharisbhat/auto-releasing/commit/bdf67ced9424116b3acb4223cd491f267159ffac))
+* fix workflow issue ([a236342](https://github.com/shriharisbhat/auto-releasing/commit/a2363420da81b4baae26b120ed9e9e0fd5cef669))
+
+
+### Miscellaneous Chores
+
+* above cfile ([65956a8](https://github.com/shriharisbhat/auto-releasing/commit/65956a849488f492fd3cb27095dc4f9d41b09c28))
+* add "bump-patch-for-minor-pre-major" ([5cfa36e](https://github.com/shriharisbhat/auto-releasing/commit/5cfa36ebcf979244714e8d9854a5344b2ff356f2))
+* add checkout ([1587070](https://github.com/shriharisbhat/auto-releasing/commit/15870704e9fd4c652e258e77835e246e481ae1ba))
+* add checkout for workflow ([00dc86b](https://github.com/shriharisbhat/auto-releasing/commit/00dc86b0170eb723227b7d45738fc079b0d1393b))
+* add it to string ([149996e](https://github.com/shriharisbhat/auto-releasing/commit/149996e599bdd68e2a7345b171be19c3939c7cca))
+* add latest sha ([a61a4d6](https://github.com/shriharisbhat/auto-releasing/commit/a61a4d663aeeb2ccd7f65912b858f0d1eedd489e))
+* add ref to checkout ([0c2a27c](https://github.com/shriharisbhat/auto-releasing/commit/0c2a27cf6228140e92311950025d33689d180ec8))
+* add ver to default ([eeaeed7](https://github.com/shriharisbhat/auto-releasing/commit/eeaeed75760d25ad66ff58a1787365b05d9e2c45))
+* add version startegy and update the workflow ([2f11168](https://github.com/shriharisbhat/auto-releasing/commit/2f111689162181dccab11db4bc90a378f4dc5be6))
+* add version strategy ([7c1aa3a](https://github.com/shriharisbhat/auto-releasing/commit/7c1aa3acaca3d1dfbfaf60d497e319dbbb2b9a77))
+* add versioning ([4739084](https://github.com/shriharisbhat/auto-releasing/commit/4739084f5036175237a884608aeaf7effa6b3cbb))
+* chagne omse ([aa369a7](https://github.com/shriharisbhat/auto-releasing/commit/aa369a795113507be80b6b1b01eb1e1237cc4a61))
+* chagne tag name ([5ebd636](https://github.com/shriharisbhat/auto-releasing/commit/5ebd6363e2c4829b24633e50ed09cb29f3c953ab))
+* change action base ([#59](https://github.com/shriharisbhat/auto-releasing/issues/59)) ([9446643](https://github.com/shriharisbhat/auto-releasing/commit/94466438443c6b3ff9eda9772dbfe39060910101))
+* change in cli ([c5cb222](https://github.com/shriharisbhat/auto-releasing/commit/c5cb222dba3d1ba24b70a605ea274dde225c9561))
+* change it to list of strings ([67585bd](https://github.com/shriharisbhat/auto-releasing/commit/67585bd6da9ccd56f28192ca6d4e07a3d022315b))
+* change it to release sha ([721287a](https://github.com/shriharisbhat/auto-releasing/commit/721287ab323482d68eaab82499212d027a815189))
+* change more ([db5820e](https://github.com/shriharisbhat/auto-releasing/commit/db5820e1db12444ef5da5a658ce3e5cc35eb567f))
+* change path ([0b7dd75](https://github.com/shriharisbhat/auto-releasing/commit/0b7dd75cccc107887f0ab645c486f79273238bb7))
+* change release-as ([5b6bd6c](https://github.com/shriharisbhat/auto-releasing/commit/5b6bd6c354b6ab37f5e5c165959f2adc8ed9f0f3))
+* change startegy ([f7fc594](https://github.com/shriharisbhat/auto-releasing/commit/f7fc5940d4718739d0891473172e5185b25170d4))
+* change steps ([6a5c5c5](https://github.com/shriharisbhat/auto-releasing/commit/6a5c5c5d59a9f3688eb545f072a7bf8f6eed0bf2))
+* change steps for temp ([6bb3855](https://github.com/shriharisbhat/auto-releasing/commit/6bb38550ffad2ee2a8dbee8be440b55cf99a7147))
+* change the name ([06a03cd](https://github.com/shriharisbhat/auto-releasing/commit/06a03cd89d5ac71d578440363b2e8149401f58c7))
+* check for default ([30ac5e6](https://github.com/shriharisbhat/auto-releasing/commit/30ac5e6bc73424072ac541f16af28d80aaf2512b))
+* check the file ([26d219d](https://github.com/shriharisbhat/auto-releasing/commit/26d219da97a794e7331f3e5ab6f4f756b20f4cd9))
+* check user input ([5b2f8f1](https://github.com/shriharisbhat/auto-releasing/commit/5b2f8f10b132346290c2df88f8656002e88e801c))
+* check version update for chore changes ([8e2a357](https://github.com/shriharisbhat/auto-releasing/commit/8e2a357fe20d0115713449bd7856bd9f46ecba6f))
+* check with file ([eec30f2](https://github.com/shriharisbhat/auto-releasing/commit/eec30f2ecefd666fe951f5d0cd8349407ab9a1b0))
+* check without file now ([f156ea4](https://github.com/shriharisbhat/auto-releasing/commit/f156ea4be6e82d2f3b953eb7b0682579fa9b5667))
+* comment change-base ([ef001de](https://github.com/shriharisbhat/auto-releasing/commit/ef001de02279bf1878e047ccc1b9b3b676d4c7fb))
+* comment checkout ([44cbf60](https://github.com/shriharisbhat/auto-releasing/commit/44cbf605e9c6dd67a94efd7a1034e482cca6f9b6))
+* **develop:** release 3.0.4 ([#58](https://github.com/shriharisbhat/auto-releasing/issues/58)) ([113470f](https://github.com/shriharisbhat/auto-releasing/commit/113470f5b1b33c0f087225f2b0396303ffb592fd))
+* **develop:** release auto-releasing 0.2.0 ([#95](https://github.com/shriharisbhat/auto-releasing/issues/95)) ([dbd5508](https://github.com/shriharisbhat/auto-releasing/commit/dbd5508ff0a56787d31a78daa09844e64888c377))
+* **develop:** release auto-releasing 0.3.0 ([#97](https://github.com/shriharisbhat/auto-releasing/issues/97)) ([fde1be6](https://github.com/shriharisbhat/auto-releasing/commit/fde1be682ce75de2644d5982d263acc5112c0a62))
+* **develop:** release auto-releasing 0.4.0 ([#98](https://github.com/shriharisbhat/auto-releasing/issues/98)) ([235fd1d](https://github.com/shriharisbhat/auto-releasing/commit/235fd1da4bc42c43d414ff08980e6d63c9814073))
+* **develop:** release auto-releasing 1.0.0 ([#102](https://github.com/shriharisbhat/auto-releasing/issues/102)) ([3b767bc](https://github.com/shriharisbhat/auto-releasing/commit/3b767bc1bd4cac8e8770e767f1a3fa0d9e56b80f))
+* **develop:** release auto-releasing 1.0.0 ([#93](https://github.com/shriharisbhat/auto-releasing/issues/93)) ([c600542](https://github.com/shriharisbhat/auto-releasing/commit/c600542e09a8e19016ed512c28c1ace2b2c57493))
+* **develop:** release auto-releasing 2.0.0 ([#103](https://github.com/shriharisbhat/auto-releasing/issues/103)) ([b4d495a](https://github.com/shriharisbhat/auto-releasing/commit/b4d495adda80e26e8905a55e587fb0d1c386079e))
+* **develop:** release auto-releasing 2.0.1 ([#109](https://github.com/shriharisbhat/auto-releasing/issues/109)) ([63f5ab2](https://github.com/shriharisbhat/auto-releasing/commit/63f5ab271e706d81802ccd7f1f5b2bc5154c7d9c))
+* **develop:** release auto-releasing 3.0.0 ([#110](https://github.com/shriharisbhat/auto-releasing/issues/110)) ([df05cce](https://github.com/shriharisbhat/auto-releasing/commit/df05cce613802f0145c2115a5ea1311f5a61bad3))
+* **develop:** release auto-releasing 3.0.1 ([#112](https://github.com/shriharisbhat/auto-releasing/issues/112)) ([2fd838f](https://github.com/shriharisbhat/auto-releasing/commit/2fd838fa96653c63194a23c9d4cd3fef9d888d28))
+* **develop:** release auto-releasing 3.0.2 ([#114](https://github.com/shriharisbhat/auto-releasing/issues/114)) ([6cd8d48](https://github.com/shriharisbhat/auto-releasing/commit/6cd8d4809856040a948c4e1b4a898bcf4681c477))
+* **develop:** release auto-releasing 4.0.0 ([#88](https://github.com/shriharisbhat/auto-releasing/issues/88)) ([#89](https://github.com/shriharisbhat/auto-releasing/issues/89)) ([c80d540](https://github.com/shriharisbhat/auto-releasing/commit/c80d540729501479361be00fc7e863cc0a16ff40))
+* echo release-config ([402d0ae](https://github.com/shriharisbhat/auto-releasing/commit/402d0aea89403907dba60ab2c854420fd727a6e6))
+* echo temp ([a1bea6c](https://github.com/shriharisbhat/auto-releasing/commit/a1bea6cb6c141576da93c45103c4a26899e4049c))
+* echo to console ([dfdd449](https://github.com/shriharisbhat/auto-releasing/commit/dfdd449dcfa40061abd6c50ac16ce0737e94091d))
+* fix latest as last ([94fd492](https://github.com/shriharisbhat/auto-releasing/commit/94fd4920614d9762dd7a37cd20af5feb931466a8))
+* gd ([f451e3e](https://github.com/shriharisbhat/auto-releasing/commit/f451e3eb0334d05f957ee6e929f7ae4be9a4cfaf))
+* give the actual name ([d593b4f](https://github.com/shriharisbhat/auto-releasing/commit/d593b4f33d94490a95f26b96c5a68b97ff8deb45))
+* ls all ([682e206](https://github.com/shriharisbhat/auto-releasing/commit/682e2065d99a8618d281f2ed711da492c65975cf))
+* **main:** release 3.0.3 ([#50](https://github.com/shriharisbhat/auto-releasing/issues/50)) ([b3c5560](https://github.com/shriharisbhat/auto-releasing/commit/b3c5560c89026a5668dfaa093388d001f4e013dd))
+* manual latest sha ([dab6c1a](https://github.com/shriharisbhat/auto-releasing/commit/dab6c1a088b211b5295f5d94e6c39af1cf4932b6))
+* manual release ([303b3ab](https://github.com/shriharisbhat/auto-releasing/commit/303b3ab516701c31517b928a85ec834fd12ceb72))
+* modify action ([dcad543](https://github.com/shriharisbhat/auto-releasing/commit/dcad543d773c0af8ed3c8c78907e4a8bdd175f0f))
+* modify action ([#71](https://github.com/shriharisbhat/auto-releasing/issues/71)) ([79cfd2d](https://github.com/shriharisbhat/auto-releasing/commit/79cfd2d01d0b99a52faf5b14a4d5210391b9a546))
+* re add latest sha ([903d637](https://github.com/shriharisbhat/auto-releasing/commit/903d6372276d48a272eea6b8057df0139a6939be))
+* release as 2.5.0 ([babfbe0](https://github.com/shriharisbhat/auto-releasing/commit/babfbe06ebf5d0b07e622f15300ce2abac623e18))
+* remove component in tag ([d7ca4fb](https://github.com/shriharisbhat/auto-releasing/commit/d7ca4fbe9b349f5dac7e464c85c67fb14334552a))
+* remove config ([8eeacef](https://github.com/shriharisbhat/auto-releasing/commit/8eeacef03a79263f9aebde2358cc3fbbc93c0be5))
+* remove continuation ([9b9eb1d](https://github.com/shriharisbhat/auto-releasing/commit/9b9eb1d505f23acd924704d82d94dd35a400001c))
+* remove list ([3bb5d63](https://github.com/shriharisbhat/auto-releasing/commit/3bb5d6335b098c55cf8baa3503e8f8df939aba18))
+* remove release-as ([ff34f7a](https://github.com/shriharisbhat/auto-releasing/commit/ff34f7a8e5617f1ef75c31158ddc8acc7c413383))
+* rename file name ([5418e2c](https://github.com/shriharisbhat/auto-releasing/commit/5418e2cb23aa8a2ef4d1a936656115ca6e49fbc7))
+* revert comment ([119fb59](https://github.com/shriharisbhat/auto-releasing/commit/119fb590527762f183fdc2eb6475006a5ab75fec))
+* run ([7cb9b15](https://github.com/shriharisbhat/auto-releasing/commit/7cb9b15594d095cf115e9f823504bffc826c68b0))
+* store file in action ([a4d3761](https://github.com/shriharisbhat/auto-releasing/commit/a4d3761c2c82985e2f0bad7674cc7f4701cdb20e))
+* temp change ([adda4f7](https://github.com/shriharisbhat/auto-releasing/commit/adda4f76b103547a37eef8ab6ceb315882559f52))
+* test chore ([c1db200](https://github.com/shriharisbhat/auto-releasing/commit/c1db200878c8d03c26a34d5b75a299a6dd69d052))
+* test default config ([8a23a75](https://github.com/shriharisbhat/auto-releasing/commit/8a23a75c513eb3f72dd0121bd22db1869782f01b))
+* test fail ([1eb5b5d](https://github.com/shriharisbhat/auto-releasing/commit/1eb5b5def75aa7dd474db1eadd9c736a1e480bdf))
+* test path ([fbaa2bd](https://github.com/shriharisbhat/auto-releasing/commit/fbaa2bd56f870c54ec2b43a1c0299f22e937dd6f))
+* test temp_file ([0bb02f0](https://github.com/shriharisbhat/auto-releasing/commit/0bb02f08516fb8d6475d21ff290909d93d112055))
+* up to 2 ([d2b8099](https://github.com/shriharisbhat/auto-releasing/commit/d2b8099f377b780bc1095b81e9c3cb26e787c473))
+* update action with jq ([4e177ce](https://github.com/shriharisbhat/auto-releasing/commit/4e177ce95785e5c3a9a33540a9878aa76d8e7562))
+* update base ([#69](https://github.com/shriharisbhat/auto-releasing/issues/69)) ([3002628](https://github.com/shriharisbhat/auto-releasing/commit/30026288e29bcbe59d6233ac14fe0f6af29c95f8))
+* update branch ([#64](https://github.com/shriharisbhat/auto-releasing/issues/64)) ([76305af](https://github.com/shriharisbhat/auto-releasing/commit/76305afc87e086e12e76ca7d888d299388617d57))
+* update bump ([4591cef](https://github.com/shriharisbhat/auto-releasing/commit/4591ceff882c842453adf1db6404c9a35c8f8d40))
+* update jq syntac ([cb70bf8](https://github.com/shriharisbhat/auto-releasing/commit/cb70bf8fbd378b3bb2851cc96592b435169bdd54))
+* update last release ([#61](https://github.com/shriharisbhat/auto-releasing/issues/61)) ([d4c9bd1](https://github.com/shriharisbhat/auto-releasing/commit/d4c9bd13877df70b72ef8d85ce19dfb7e66d8ece))
+* update release type ([#66](https://github.com/shriharisbhat/auto-releasing/issues/66)) ([bdc15a4](https://github.com/shriharisbhat/auto-releasing/commit/bdc15a47d46abbf7d2b8d4b588ecb793f3aa0443))
+* update stage release type to node ([#68](https://github.com/shriharisbhat/auto-releasing/issues/68)) ([e7c7b4d](https://github.com/shriharisbhat/auto-releasing/commit/e7c7b4de495367ad61b3db733889bb2833a2959c))
+* update to false ([e1c1ee5](https://github.com/shriharisbhat/auto-releasing/commit/e1c1ee580f4bba877aad33d301c99b864b3b2472))
+* update to true ([a62b9b2](https://github.com/shriharisbhat/auto-releasing/commit/a62b9b2c6d4d04e755df05a54d884ddcfb6fdbc9))
+* use action ([e814a91](https://github.com/shriharisbhat/auto-releasing/commit/e814a91670a38054436b1144daf52ca22c4a1ebd))
+* use temp.json for config ([27f29d3](https://github.com/shriharisbhat/auto-releasing/commit/27f29d35ad3a62809ed4fa5a2105001288c7c644))
+
 ## [3.0.2](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v3.0.1...auto-releasing-v3.0.2) (2024-01-18)
 
 
