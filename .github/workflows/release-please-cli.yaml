@@ -10,6 +10,11 @@ name: CLI Release Please for develop
         required: false
         type: string
         default: develop
+      latest-tag-sha:
+        description: For any release, only consider as far back as this commit SHA
+        required: false
+        type: string
+        default: ""
       versioning-strategy:
         description: >-
           The versioning-strategy you want to follow, [choices:
@@ -38,4 +43,5 @@ jobs:
             --repo-url=shriharisbhat/auto-releasing \
             --release-type=node \
             --changelog-sections=feat,feature,fix,chore \
+            --latest-tag-sha=${{ github.event.inputs.latest-tag-sha }} \
             --versioning-strategy=${USER_INPUT:-"default"} \
