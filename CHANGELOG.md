@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.0.2](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v3.0.1...auto-releasing-v3.0.2) (2024-01-18)
+
+
+### Miscellaneous Chores
+
+* chagne omse ([aa369a7](https://github.com/shriharisbhat/auto-releasing/commit/aa369a795113507be80b6b1b01eb1e1237cc4a61))
+* chagne tag name ([5ebd636](https://github.com/shriharisbhat/auto-releasing/commit/5ebd6363e2c4829b24633e50ed09cb29f3c953ab))
+* run ([7cb9b15](https://github.com/shriharisbhat/auto-releasing/commit/7cb9b15594d095cf115e9f823504bffc826c68b0))
+
 ## [3.0.1](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v3.0.0...auto-releasing-v3.0.1) (2024-01-18)
 
 
