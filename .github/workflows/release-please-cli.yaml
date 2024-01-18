@@ -41,7 +41,8 @@ jobs:
           release-please release-pr \
             --token=${{ secrets.GITHUB_TOKEN }} \
             --repo-url=shriharisbhat/auto-releasing \
-            --latest-tag-sha=f7fc5940d4718739d0891473172e5185b25170d4 \
-            --release-type=node \
-            --changelog-sections=feat,feature,fix,chore \
-            --versioning-strategy=${USER_INPUT:-"default"} \
+
+        # --latest-tag-sha=f7fc5940d4718739d0891473172e5185b25170d4 \
+        # --release-type=node \
+        # --changelog-sections=feat,feature,fix,chore \
+        # --versioning-strategy=${USER_INPUT:-"default"} \
