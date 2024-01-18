@@ -1,8 +1,8 @@
 name: CLI Release Please for develop
 on:
-  # push:
-  #   branches:
-  #     - develop
+  push:
+    branches:
+      - develop
   workflow_dispatch:
     inputs:
       target-branch:
@@ -39,8 +39,12 @@ jobs:
         run: |
           USER_INPUT=${{ github.event.inputs.versioning-strategy }}
           release-please release-pr \
+            --latest-tag-name=3.0.1 \
             --token=${{ secrets.GITHUB_TOKEN }} \
             --repo-url=shriharisbhat/auto-releasing \
+            --release-type=node \
+            --changelog-sections=feat,feature,fix,chore \
+            --versioning-strategy=${USER_INPUT:-"default"} \
 
         # --release-type=node \
         # --changelog-sections=feat,feature,fix,chore \
