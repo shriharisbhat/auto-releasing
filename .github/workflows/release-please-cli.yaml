@@ -1,8 +1,8 @@
 name: CLI Release Please for develop
-# on:
-#   push:
-#     branches:
-#       - develop
+on:
+  push:
+    branches:
+      - develop
   workflow_dispatch:
     inputs:
       target-branch:
@@ -35,6 +35,10 @@ jobs:
         run: npm install release-please -g
       - name: ls
         run: ls -a
+
+  create-release-pr:
+    runs-on: ubuntu-latest
+    steps:
       - name: Create a release PR
         run: |
           USER_INPUT=${{ github.event.inputs.versioning-strategy }}
@@ -45,6 +49,16 @@ jobs:
             --release-type=node \
             --changelog-sections=feat,feature,fix,chore \
             --versioning-strategy=${USER_INPUT:-"default"} \
+
+  create-release:
+    runs-on: ubuntu-latest
+    needs: create-release-pr
+    steps:
+      - name: Create a github release
+        run: |
+          release-please github-release \
+            --token=${{ secrets.GITHUB_TOKEN }} \
+            --repo-url=shriharisbhat/auto-releasing \
 
         # --release-type=node \
         # --changelog-sections=feat,feature,fix,chore \
