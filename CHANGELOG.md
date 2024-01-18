@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.4](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v3.0.3...auto-releasing-v3.0.4) (2024-01-18)
+
+
+### Miscellaneous Chores
+
+* on workflow dispatch ([3315578](https://github.com/shriharisbhat/auto-releasing/commit/331557858f4009654706cbe081e362bf288c425c))
+
 ## [3.0.3](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v3.0.2...auto-releasing-v3.0.3) (2024-01-18)
 
 
