@@ -50,9 +50,6 @@ jobs:
             --latest-tag-name=v3.0.1 \
             --token=${{ secrets.GITHUB_TOKEN }} \
             --repo-url=shriharisbhat/auto-releasing \
-            --release-type=node \
-            --changelog-sections=feat,feature,fix,chore \
-            --versioning-strategy=${USER_INPUT:-"default"} \
 
   create-release:
     runs-on: ubuntu-latest
