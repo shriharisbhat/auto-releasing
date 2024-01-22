@@ -34,7 +34,11 @@ jobs:
       - name: Install release-please globally
         run: npm install release-please -g
       - name: where release-please
-        run: where release-please
+        run: ls -a
+
+      - name: where release-please
+        run: cd .. \
+          ls -a
 
       - name: Cache release-please
         uses: actions/cache@v2
