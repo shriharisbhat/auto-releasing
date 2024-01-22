@@ -33,8 +33,8 @@ jobs:
           node-version: "18"
       - name: Install release-please globally
         run: npm install release-please -g
-      - name: ls
-        run: ls -a
+      - name: where release-please
+        run: where release-please
 
       - name: Cache release-please
         uses: actions/cache@v2
