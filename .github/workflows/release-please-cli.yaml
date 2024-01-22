@@ -64,8 +64,6 @@ jobs:
           release-please release-pr \
             --token=${{ secrets.GITHUB_TOKEN }} \
             --repo-url=shriharisbhat/auto-releasing \
-            --release-type=node \
-            --changelog-sections=feat,feature,fix,chore \
 
   create-release:
     runs-on: ubuntu-latest
