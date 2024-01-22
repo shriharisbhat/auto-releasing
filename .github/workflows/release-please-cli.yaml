@@ -37,7 +37,8 @@ jobs:
         run: ls -a
 
       - name: where release-please
-        run: cd .. \
+        run: |
+          cd .. \
           ls -a
 
       - name: Cache release-please
