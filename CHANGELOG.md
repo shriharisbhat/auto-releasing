@@ -1,5 +1,24 @@
 # Changelog
 
+## [3.0.5](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v3.0.4...auto-releasing-v3.0.5) (2024-01-22)
+
+
+### Miscellaneous Chores
+
+* add dep to each job ([845ecd5](https://github.com/shriharisbhat/auto-releasing/commit/845ecd53a7928830e4b4d54c049ba6ecd5d76e6d))
+* check bootstap sha ([9cf2b69](https://github.com/shriharisbhat/auto-releasing/commit/9cf2b695b5008c3e71381a9d892be4409a7aa3c0))
+* check cache ([3aa084a](https://github.com/shriharisbhat/auto-releasing/commit/3aa084a8b1dd7506a4f09a1c466e0e54649c6156))
+* check hashsing again ([99fa31e](https://github.com/shriharisbhat/auto-releasing/commit/99fa31e9617a6b2ba343b2e134ba0e834d388ca6))
+* check path ([f047b25](https://github.com/shriharisbhat/auto-releasing/commit/f047b252e51de60e31f757a91b11117d414eb8b9))
+* check where ([0563801](https://github.com/shriharisbhat/auto-releasing/commit/0563801e2a31514d818607be65ae5f3e63bddfa7))
+* chekc again ([e2aa26a](https://github.com/shriharisbhat/auto-releasing/commit/e2aa26af61eb234bfae6e7c049ae5179622aa4ce))
+* default file ([39c9aab](https://github.com/shriharisbhat/auto-releasing/commit/39c9aabf4e44f8a10c48c1b1a712c9d70054be29))
+* fix error ([d657aa9](https://github.com/shriharisbhat/auto-releasing/commit/d657aa9c404cdf1175e0c55ef5afb0d0776ee224))
+* format ([fed54a5](https://github.com/shriharisbhat/auto-releasing/commit/fed54a530b2e4c48dfab2a306d97822d4f632f63))
+* fr ([0cb9025](https://github.com/shriharisbhat/auto-releasing/commit/0cb9025de0eb373a119f626e935eb2282220316e))
+* some small changes ([2feba62](https://github.com/shriharisbhat/auto-releasing/commit/2feba62aee2539f115fcdc24c533b1180a1ef82e))
+* uncomment ([1fdda2f](https://github.com/shriharisbhat/auto-releasing/commit/1fdda2fafe0aee3cbba55da19c8742ccb5ed2beb))
+
 ## [3.0.4](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v3.0.3...auto-releasing-v3.0.4) (2024-01-18)
 
 
