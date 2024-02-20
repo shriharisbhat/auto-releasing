@@ -1,0 +1,50 @@
+name: Trigger Auto Release
+run-name: Triggering an auto release.
+
+on:
+  workflow_dispatch:
+    inputs:
+      run:
+        description: "Pull develop to stage"
+        required: true
+        type: boolean
+
+jobs:
+  pull-develop-to-stage:
+    if: ${{ github.event.inputs.run == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 #v4.1.1
+        with:
+          ref: stage
+
+      - name: Pull develop to stage
+        run: |
+          git pull
+          git pull origin develop
+          git push origin stage
+
+  invoke-release-please:
+    needs: pull-develop-to-stage
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 #v4.1.1
+
+      # Trigger release-please workflow
+      - name: Invoke release-please workflow
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea #v7.0.1
+        with:
+          script: |
+            github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: context.ref,
+              workflow_id: "release-please.yml",
+            });
