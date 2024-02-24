@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.6](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v3.0.5...auto-releasing-v3.0.6) (2024-02-24)
+
+
+### Miscellaneous Chores
+
+* clean readme ([6835b34](https://github.com/shriharisbhat/auto-releasing/commit/6835b344a3e35a7afb8dbe89d29aa374b88e5a03))
+* trigger release ([fee5d87](https://github.com/shriharisbhat/auto-releasing/commit/fee5d87c307aa42a161cb6f4872ad6269fd803f2))
+
 ## [3.0.5](https://github.com/shriharisbhat/auto-releasing/compare/auto-releasing-v3.0.4...auto-releasing-v3.0.5) (2024-01-22)
 
 
